@@ -14,21 +14,9 @@ export default async function Page() {
             <CardContent className="flex flex-col gap-4">
                 <Link
                     className={buttonVariants({size: "lg", variant: "outline"})}
-                    href="/admin/users/1"
+                    href="/admin/users/new"
                 >
-                    User 1
-                </Link>
-                <Link
-                    className={buttonVariants({size: "lg", variant: "outline"})}
-                    href="/admin/users/melvyn"
-                >
-                    User Melvyn
-                </Link>
-                <Link
-                    className={buttonVariants({size: "lg", variant: "outline"})}
-                    href="/admin/users/patate"
-                >
-                    User Patate
+                    Create user
                 </Link>
             </CardContent>
         </Card>
